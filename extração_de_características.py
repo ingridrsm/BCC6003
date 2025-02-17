@@ -56,4 +56,4 @@ if not os.path.exists(output_dir):
 np.save(os.path.join(output_dir, 'X.npy'), X)
 np.save(os.path.join(output_dir, 'y.npy'), y)
 
-print("iamgensguardadas")
+print("imagens guardadas")
