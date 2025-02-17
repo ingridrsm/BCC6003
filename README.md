@@ -27,3 +27,7 @@ Para a execução dos modelos de classificação:
 python classificadores.py
 ```
 
+## Repositório
+O código-fonte deste projeto está disponível no seguinte repositório:
+[https://github.com/ingridrsm/BCC6003](#)
+
