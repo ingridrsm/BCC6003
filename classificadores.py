@@ -24,7 +24,7 @@ plt.figure(figsize=(10, 6))
 plt.scatter(X[:, 0], X[:, 1], c=y_encoded, cmap='viridis', alpha=0.5)
 plt.title("Visualização das Características")
 plt.show()
-'''
+
 # knn
 print("KNN")
 
@@ -57,7 +57,7 @@ print(classification_report(y_teste, modelo.predict(X_teste)))
 
 ConfusionMatrixDisplay.from_estimator(modelo, X_teste, y_teste)
 plt.show()
-'''
+
 
 # svm
 print("SVM")
